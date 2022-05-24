@@ -1,0 +1,32 @@
+html{
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+.wrap{
+    background: rgb(42, 33, 167);
+    height: 100vh;
+}
+h1{
+    font-size: 30px;
+    color: white;
+    margin: 0 4px;
+}
+textarea{
+    color: white;
+    background-color: rgba(27, 26, 26, 0.863);
+    border: 3px solid red;
+    font-size: 20px;
+    height: auto;
+    width: auto;
+}
+   
+.btn{
+    color: white;
+    font-weight: bold;
+    background: red;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 15px; 
+    border-color: white;
+}

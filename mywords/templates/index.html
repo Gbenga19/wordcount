@@ -1,0 +1,22 @@
+{% load static %}
+<!--h1>Welcome {{name}} <br>
+     You are {{age}} years old from {{nationality}} </h1>-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>WORD COUNT</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link  rel="stylesheet" type="text/css" media="screen" href="{% static 'css/main.css'%}"/>
+        <script src="main.js"></script>
+    </head>
+<div class="wrap">
+    <h1>Type your words below</h1> <br>
+    <form action="counter" method="POST">
+        {% csrf_token %}
+        <textarea name="words" cols="50" rows="20"></textarea><br>
+    <button class="btn" type="submit">SUBMIT</button>
+    </form>
+</div>
+</body>
+ </html>
